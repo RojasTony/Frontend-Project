@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "See if comments exist",
+      "setup": "",
+      "run": "git grep \"//\" *.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Model used for and while loops",
+      "setup": "",
+      "run": "git grep -E \"for|while\" *.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Model 1D array with game state",
+      "setup": "",
+      "run": "git grep \"let gameState\" *.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Model 2D array that stores list of winning conditions",
+      "setup": "",
+      "run": "git grep \"const winningConditions\" *.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Control featured logging to console to trace game",
+      "setup": "",
+      "run": "git grep \"console.log\" *.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Used bootstrap html css JS and JQuery",
+      "setup": "",
+      "run": "git grep -E \".css|bootstrap|jquery|./script/\" *.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Randomly Pick who starts Human being X and Computer being O",
+      "setup": "",
+      "run": "git grep \"random\" *.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

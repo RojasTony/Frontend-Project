@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <!--needed for Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--needed for Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="header">Tic-Tac-Toe</div>
+    <div class="header1">Scoreboard</div>
+    <table class="table">
+      <thead>
+        <tr>   
+          <th scope="col-lg">Player Wins</th>
+          <th scope="col-lg">Computer Wins</th>
+          <th scope="col-lg">Draws</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id ="PlayerW">0</th>
+          <td id ="ComputerW">0</td>
+          <td id ="DrawsW">0</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="container">
+      <div class="cell" id="0" data-cell-index="0"></div>
+      <div class="cell" id="1" data-cell-index="1"></div>
+      <div class="cell" id="2" data-cell-index="2"></div>
+      <div class="cell" id="3" data-cell-index="3"></div>
+      <div class="cell" id="4" data-cell-index="4"></div>
+      <div class="cell" id="5" data-cell-index="5"></div>
+      <div class="cell" id="6" data-cell-index="6"></div>
+      <div class="cell" id="7" data-cell-index="7"></div>
+      <div class="cell" id="8" data-cell-index="8"></div>
+    </div>
+    <p class="status"></p>
+    <button class="restart">Restart</button>
+
+    <!--Footer-->
+    <section class="footer">
+      <footer class="text-center text-white" style="background-color: #0a4275;">
+        <div class="grid p-4 pb-0">
+          <section class="">
+            <p class="center">
+              <span class="me-3">Z# 23529067</span>
+              <span class="me-3">Tony Rojas</span>
+            </p>
+          </section>
+        </div>
+      </footer>
+    </section>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
